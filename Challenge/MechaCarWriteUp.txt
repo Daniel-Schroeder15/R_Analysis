@@ -1,0 +1,14 @@
+# MechaCar Write up
+## MPG Regression
+The fifty MechaCar prototypes were analyzed using a multiple linear regression analysis. The analysis metrics used include: vehicle length, vehicle weight, spoiler angle, and ground clearance. Analyzing this data across all prototypes can give AutosRUs a better understanding what can make the miles per gallon (mpg) more efficient and identify ideal vehicle performance. Ground clearance and vehicle length have significant impact on the mpg. In other words, the ground clearance and vehicle length are statistically likely to provide non-random amounts of variance to the mpg values. Because there is a significant linear relationship with some of the metrics, the linear model is not zero, or a flat line. This linear model can predict mpg of MechaCar prototypes 70% of the time.  
+## Suspension Coil Summary
+The design specifications for the MechaCar suspension coils are all close to 1500 PSI. According to the mean and median, which were really close together, there was no data to skew the PSI information. Standard deviation of the coils PSI was 7.9. The variance of the suspension coils was under the 100 pounds per inch, 62.3, which meets the design specification. 
+
+A T-test was performed as part of the analysis of the suspension coil psi with the population mean as 1500. The results showed that there is not a statistical significance and indicates strong evidence to not reject the null hypothesis. With the p-value being above .05, we cannot conclude that a significant difference exists.
+
+
+## Study
+In order for the MechaCar to outperform the competition, the car must be compared to the other vehicles similar to the MechaCar. We must compare the MechaCar’s vehicle type and body style to other manufacturers style and type. Horsepower, acceleration, price, and safety rating shall be examined within the analysis.  
+Hypothesis: The higher the safety rating, the higher the price of the vehicle in the same vehicle type. 
+Null Hypothesis: Price of the vehicle and the safety rating have no correlation, and price of vehicle goes down when the safety rating goes up. 
+In order to test this hypothesis, we could perform a linear regression with price vs safety rating. Find the p value and determine if there is any statistical significance. In order to complete this analysis, we would need the safety rating for the MechaCar and the top 5 competitors. We would also need to gather the price of these vehicles. For the alternative hypothesis, horsepower and acceleration data could also be gathered and analyzed with the data using a multiple linear regression model, and that price is more correlated to something else other than safety rating. 
